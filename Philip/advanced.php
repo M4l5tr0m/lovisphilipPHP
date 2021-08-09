@@ -52,7 +52,7 @@
             $i++;            
             return  "<div class='col'>
                         <div class='card h-100 p-2'>
-                            <img src='{$ca[$nk[$i]]['img']}' class='img-fluid' alt='{$nk[$i]}' />
+                            <img src='{$ca[$nk[$i]]['img']}' class='img-fluid' alt='{$nk[$i]}' style='height:300px;' />
                             <div class='card-body'>
                                 <h5 class='card-title text-center'>{$nk[$i]}</h5>
                                 <p class='card-text text-center'>{$nk[$i]} is {$ca[$nk[$i]]['age']} years old.</p>
